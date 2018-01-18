@@ -3,7 +3,10 @@ source 'https://rubygems.org'
 gem 'devise'
 gem 'cancancan'
 gem 'rolify'
+ruby "2.3.5"
+gem 'rails_12factor', group: :production
 gem 'pg'
+gem 'simple_form'
 gem 'meta_request'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

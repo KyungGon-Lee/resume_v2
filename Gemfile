@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'pg'
+ruby "2.3.5"
 gem 'devise'
 gem 'cancancan'
 gem 'rolify'

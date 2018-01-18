@@ -4,8 +4,8 @@ gem 'devise'
 gem 'cancancan'
 gem 'rolify'
 gem 'pg'
-gem 'request'
-gem 'heroku'
+gem 'meta_request'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.9'
 # Use sqlite3 as the database for Active Record

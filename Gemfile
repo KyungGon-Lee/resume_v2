@@ -1,13 +1,10 @@
 source 'https://rubygems.org'
 gem 'pg'
-ruby "2.3.5"
+gem 'rails', '4.2.9'
 gem 'devise'
-gem 'cancancan'
-gem 'rolify'
-ruby "2.3.5"
-gem 'rails_12factor', group: :production
-gem 'simple_form'
-gem 'meta_request'
+
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.9'
@@ -50,10 +47,10 @@ group :development do
   gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'devise'
   gem 'rails_db'
-  gem 'pry'
   gem 'awesome_print'
-  gem 'better_errors'
-
+  gem 'pry-rails'
+  gem 'meta_request'
+  gem 'devise-i18n'
 end
